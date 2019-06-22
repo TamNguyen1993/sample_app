@@ -13,6 +13,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'jquery-rails'
 
 group :development, :test do
   gem 'sqlite3'
@@ -37,7 +38,7 @@ group :test do
   gem 'guard-minitest'
 end
 
-group :production do 
+group :production do
   gem 'pg'
 end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
